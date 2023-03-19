@@ -10,7 +10,7 @@ Four blast types are included: blastn, blastp, blastx, tblastn
 In the input box for blast parameters, please note that:
 1)	format of the intermediate output file is fixed as -outfmt 6, and this file is unavailable in the analysis;
 2)	for -evalue parameter item, just manually type in a value being <Real> (>0), such as e-4 instead of -evalue e-4;
-3)	other available parameter items and their values are -word_size <Integer, >=4>, -gapopen <Integer>, -gapextend <Integer>, -penalty <Integer, <=0>, -reward <Integer, >=0>, -num_threads <Integer, >=1>, check their usages in NCBI blast program, and use a parameter item by typing in like -num_threads 2; 
+3)	other available parameter items and their values are -word_size <Integer, >=4>, -gapopen <Integer>, -gapextend <Integer>, -penalty <Integer, <=0>, -reward <Integer, >=0>, -num_threads <Integer, >=1>, check their usages in the NCBI blast program, and use a parameter item by typing in like -num_threads 2; 
 4)	other blast parameter items are not included, make your own extensions if necessary.
 
 Two test files A.fasta.fa and B.fasta.fa are attached in the Test files.zip which are used for tool running test. A.fasta.fa includes 32 nucleotide sequences (A1-A32), among them only A1 and A2 is related, A2 and A3 related ……A29 and A30 related, but A31 or A32 is unrelated to any others. B includes a single sequence A which is only related to A1. A.fasta.fa is the query sequence file while B is the file for blast database building.
