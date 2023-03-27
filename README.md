@@ -5,7 +5,7 @@ If this tool is helpful after used please cite "Zhang S et al. 2023. Conserved u
 
 Please first download blast program from NCBI and install, and then put the .exe or .py tool files into the bin directory of the installed blast program before running on Windows system or Python environment, respectively.
 
-Four blast types are included: blastn, blastp, blastx, tblastn.
+Four blast types are included: blastn, tblastn.
 
 In the input box for blast parameters, please note that:
 1)	format of the intermediate output file is fixed as -outfmt 6, and this file is unavailable in the analysis;
