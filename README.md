@@ -13,9 +13,9 @@ In the input box for blast parameters, please note that:
 
 Test files are attached in the Test files.zip, which are used for tool running test.
 
-Default input file names for query and database (db) building are A.fasta.fa and B.fasta.fa respectively, and the final results from tool running include:
-1)	B_total.text, which is a collection of annotated A.fasta.fa sequences from iterative blast analysis;
-2)	A_iterations.fasta.fa.txt, which is iteration time (make this n) of blast analysis;
-3)	An.fasta.fa, the remaining sequences not annotated in A.fasta.fa by iterative blast analysis.
+The final results from tool running include:
+1)	B_total.text, which is a collection of annotated sequences from query file against db file in the iterative blast analysis;
+2)	A_iterations.txt, indicating number of times (make this n) that blast analysis iterated;
+3)	<query_file_name> n.fa, the remaining sequences not annotated by iterative blast, the n indicates .
 
 Please cite "Zhang S et al. 2023. Conserved untranslated regions of multipartite viruses: Natural markers of novel viral genomic components and tags of viral evolution. Virus Evolution."
