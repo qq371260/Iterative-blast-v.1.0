@@ -15,6 +15,6 @@ Test files are attached in the Test files.zip, which are used for tool running t
 The final results from tool running include:
 1)	B_total.text, which is a collection of annotated sequences from query file against db file in the iterative blast analysis;
 2)	A_iterations.txt, indicating number of times (make this n) that a blast analysis iterated;
-4)	<query_file_name> n.fa, the remaining sequences not annotated by iterative blast with the n iteration.
+4)	<query_file_name>n.fa, the remaining sequences not annotated by iterative blast with the n iteration.
 
 Please cite "Zhang S et al. 2023. Conserved untranslated regions of multipartite viruses: Natural markers of novel viral genomic components and tags of viral evolution"
