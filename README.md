@@ -8,8 +8,7 @@ Four blast tools are included: UTR-iblastn, iblastx, iblastp, and iblastn/itblas
 In the input box for blast parameters, please note that:
 1)	format of the intermediate output file is fixed as -outfmt 6, please ignore this parameter;
 2)	type, for example, -evalue 0.0001, for parameter of threshold e-value, according to the NCBI blast;
-3)	other available parameter items and their values are -word_size <Integer, >=4>, -gapopen <Integer>, -gapextend <Integer>, -penalty <Integer, <=0>, -reward <Integer, >=0>, -num_threads <Integer, >=1>, check their usages in the NCBI blast program, and use a parameter item by typing in like -num_threads 2; 
-4)	other blast parameter items are not included, make your own extensions if necessary.
+3)	other available parameter items and their values, please check their usages in the NCBI blast program.
 
 Test files are attached in the Test files.zip, which are used for tool running test.
 
