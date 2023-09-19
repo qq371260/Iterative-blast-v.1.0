@@ -10,7 +10,7 @@ In the input box for blast parameters, please note that:
 2)	type, for example, -evalue 0.0001, for parameter of threshold e-value, according to the NCBI blast;
 3)	other available parameter items and their values, please check their usages in the NCBI blast program.
 
-Test files are attached in the Test files.zip, which are used for tool running test.
+Test files are attached for each tool, which are used for running test.
 
 The final results from tool running include:
 1)	B_total.text, which is a collection of annotated sequences from query file against db file in the iterative blast analysis;
