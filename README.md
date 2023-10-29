@@ -1,6 +1,12 @@
 # Iterative-blast-v.1.0
 The codes and tools for iterative blast (iblast)
 
+The environments, Python module, and independent open-source program for tests:
+Windows, Version=11;
+Python, Version=3.10.2;
+ttkbootstrap in Python, Version=1.10.1;
+BLAST, Version=2.12.0+.
+
 Please first download blast program from NCBI and install, and then put the .exe or .py tool files into the bin directory of the installed blast program before running on Windows system or in Python environment, respectively.
 
 Four blast tools are included: UTR-iblastn, iblastx, iblastp, and iblastn/itblastx.
